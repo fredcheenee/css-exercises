@@ -4,35 +4,65 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-evenly;
+justify-content: center;
  align-items: center;
  gap: 52px;
 }
+
 img {
   width: 100px;
   height: 100px;
 }
 
 .title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
+
 }
 
-.barberry {
+ .barberry {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
+  max-width: 200px;
+
+ }
+
+ .chilli {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 200px;
+ }
+
+ .pepper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 200px;
+ }
+
+ .saffron {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 200px;
+ }
+
+
   
   
 
-}
+
 
 .text {
-  align-self: center;
+   text-align: center;
  
 }
 
